@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vercel/
+.codex-work/
+test-results/
+playwright-report/
+*.local
+.playwright-cli/
+*.tsbuildinfo
+/hero-*.png
+/prototype-*.png
+/qa-*.png

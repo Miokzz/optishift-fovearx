@@ -1,0 +1,15 @@
+{
+  "environment": "Lighthouse mobile simulation, local production build; before async GPU warm-up",
+  "version": "13.5.0",
+  "scores": {
+    "performance": 0.59,
+    "seo": 1,
+    "accessibility": 1,
+    "bestPractices": 1
+  },
+  "metrics": {
+    "LCP": 3367.8798,
+    "TBT": 3889,
+    "CLS": 0.001510739385272709
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/technology",
+      "destination": "/tecnologia",
+      "permanent": true
+    },
+    {
+      "source": "/engineering",
+      "destination": "/engenharia",
+      "permanent": true
+    },
+    { "source": "/company", "destination": "/empresa", "permanent": true }
+  ]
+}
