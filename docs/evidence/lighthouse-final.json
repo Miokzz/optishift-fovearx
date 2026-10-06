@@ -1,0 +1,15 @@
+{
+  "environment": "Lighthouse mobile simulation, local production build after asynchronous GPU initialization and responsive WebP poster",
+  "version": "13.5.0",
+  "scores": {
+    "seo": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "performance": 0.85
+  },
+  "metrics": {
+    "TBT": 250.5,
+    "LCP": 3207.076,
+    "CLS": 0.001510739385272709
+  }
+}

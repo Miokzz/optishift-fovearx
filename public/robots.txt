@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://optishift-fovearx.vercel.app/sitemap.xml
